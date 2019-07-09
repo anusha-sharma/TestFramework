@@ -43,6 +43,8 @@ public class GenericMethods {
 			element = driver.findElement(By.xpath(locator));
 		}else if(type.equals("linkText")){
 			element = driver.findElement(By.linkText(locator));
+		}else if(type.equals("class")){
+			element = driver.findElement(By.className(locator));
 		}
 		
 		if(checkSingleEntry(locator, type)){

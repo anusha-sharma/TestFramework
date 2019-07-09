@@ -2,36 +2,279 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35965" started-at="2019-06-23T14:48:43Z" finished-at="2019-06-23T14:49:19Z">
+  <suite name="Default suite" duration-ms="65042" started-at="2019-07-09T16:31:59Z" finished-at="2019-07-09T16:33:04Z">
     <groups>
+      <group name="ComplexTestCases">
+        <method signature="Complex_RTTC_072_Tests.RTTC_072_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="RTTC_072_Test" class="com.training.sanity.tests.Complex_RTTC_072_Tests"/>
+      </group> <!-- ComplexTestCases -->
     </groups>
-    <test name="Default test" duration-ms="35965" started-at="2019-06-23T14:48:43Z" finished-at="2019-06-23T14:49:19Z">
-      <class name="com.training.sanity.tests.AdminLoginTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AdminLoginTests@2b98378d]" name="setUpBeforeClass" is-config="true" duration-ms="13940" started-at="2019-06-23T20:18:43Z" finished-at="2019-06-23T20:18:57Z">
+    <test name="Default test" duration-ms="65042" started-at="2019-07-09T16:31:59Z" finished-at="2019-07-09T16:33:04Z">
+      <class name="com.training.sanity.tests.Complex_RTTC_072_Tests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="setUpBeforeClass" is-config="true" duration-ms="163" started-at="2019-07-09T22:01:59Z" finished-at="2019-07-09T22:01:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.AdminLoginTests@2b98378d]" name="validLoginTest" duration-ms="5974" started-at="2019-06-23T20:18:57Z" finished-at="2019-06-23T20:19:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="setUp" is-config="true" duration-ms="6766" started-at="2019-07-09T22:02:00Z" finished-at="2019-07-09T22:02:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="CatalogTest()[pri:0, instance:com.training.sanity.tests.AdminLoginTests@2b98378d]" name="CatalogTest" duration-ms="1413" started-at="2019-06-23T20:19:03Z" depends-on-methods="com.training.sanity.tests.AdminLoginTests.validLoginTest" finished-at="2019-06-23T20:19:05Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RTTC_072_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="RTTC_072_Test" duration-ms="8085" started-at="2019-07-09T22:02:07Z" data-provider="RTTC_072_excel-inputs" finished-at="2019-07-09T22:02:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TV]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CatalogTest -->
-        <test-method status="PASS" signature="OrdersTest()[pri:0, instance:com.training.sanity.tests.AdminLoginTests@2b98378d]" name="OrdersTest" duration-ms="6325" started-at="2019-06-23T20:19:05Z" depends-on-methods="com.training.sanity.tests.AdminLoginTests.CatalogTest" finished-at="2019-06-23T20:19:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OrdersTest -->
-        <test-method status="PASS" signature="TaxTest()[pri:0, instance:com.training.sanity.tests.AdminLoginTests@2b98378d]" name="TaxTest" duration-ms="6567" started-at="2019-06-23T20:19:11Z" depends-on-methods="com.training.sanity.tests.AdminLoginTests.OrdersTest" finished-at="2019-06-23T20:19:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TaxTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AdminLoginTests@2b98378d]" name="tearDown" is-config="true" duration-ms="1700" started-at="2019-06-23T20:19:17Z" finished-at="2019-06-23T20:19:19Z">
+        </test-method> <!-- RTTC_072_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="tearDown" is-config="true" duration-ms="1746" started-at="2019-07-09T22:02:15Z" finished-at="2019-07-09T22:02:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.AdminLoginTests -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="setUp" is-config="true" duration-ms="5453" started-at="2019-07-09T22:02:17Z" finished-at="2019-07-09T22:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RTTC_072_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="RTTC_072_Test" duration-ms="7899" started-at="2019-07-09T22:02:22Z" data-provider="RTTC_072_excel-inputs" finished-at="2019-07-09T22:02:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Onida]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TV]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TV]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTTC_072_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="tearDown" is-config="true" duration-ms="1741" started-at="2019-07-09T22:02:30Z" finished-at="2019-07-09T22:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="setUp" is-config="true" duration-ms="5646" started-at="2019-07-09T22:02:32Z" finished-at="2019-07-09T22:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RTTC_072_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="RTTC_072_Test" duration-ms="8807" started-at="2019-07-09T22:02:37Z" data-provider="RTTC_072_excel-inputs" finished-at="2019-07-09T22:02:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cricket Bat]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ahlkslkdlkjlkfjdslflkjdslkfjdslkjflkdsjflkdsjlkgglkdjglkjlkfjlgkjfdlkjfdlkjglkfdjglkfdjglkjfdlkgjflkjglkfdjglkfdjglkfdjglkjfdlkgjlkjglkdjlkfdjgrehoiteoiruioreu]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sports]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTTC_072_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="tearDown" is-config="true" duration-ms="1737" started-at="2019-07-09T22:02:46Z" finished-at="2019-07-09T22:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="setUp" is-config="true" duration-ms="5661" started-at="2019-07-09T22:02:48Z" finished-at="2019-07-09T22:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="RTTC_072_Test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="RTTC_072_Test" duration-ms="8593" started-at="2019-07-09T22:02:54Z" data-provider="RTTC_072_excel-inputs" finished-at="2019-07-09T22:03:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[as]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Asus Zenfone]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SKU-003]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[7000.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Electronic]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[600.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTTC_072_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="tearDown" is-config="true" duration-ms="1764" started-at="2019-07-09T22:03:02Z" finished-at="2019-07-09T22:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpAfterClass()[pri:0, instance:com.training.sanity.tests.Complex_RTTC_072_Tests@26be92ad]" name="setUpAfterClass" is-config="true" duration-ms="252" started-at="2019-07-09T22:03:04Z" finished-at="2019-07-09T22:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAfterClass -->
+      </class> <!-- com.training.sanity.tests.Complex_RTTC_072_Tests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

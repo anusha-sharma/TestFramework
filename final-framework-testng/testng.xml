@@ -4,7 +4,9 @@
 <suite name = "Sample test Suite">
    <test name = "Sample test">
       <classes>
-         <class name = "com.training.sanity.tests.LoginTests" />
+      	<class name = "com.training.sanity.tests.Simple_RTTC_010_Tests" />
+      	<class name = "com.training.sanity.tests.Simple_RTTC_011_Tests" />
+      	<class name = "com.training.sanity.tests.Simple_RTTC_012_Tests" />
       </classes>
    </test>
 </suite>	

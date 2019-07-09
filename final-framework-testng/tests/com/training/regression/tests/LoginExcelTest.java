@@ -37,7 +37,7 @@ public class LoginExcelTest {
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
 		loginPOM = new LoginPOM(driver);
-		baseUrl = properties.getProperty("baseURL");
+		baseUrl = properties.getProperty("baseURL1");
 		screenShot = new ScreenShot(driver);
 		// open the browser
 		driver.get(baseUrl);
@@ -50,6 +50,7 @@ public class LoginExcelTest {
 
 	@Test(dataProvider = "excel-inputs", dataProviderClass = LoginDataProviders.class)
 	public void loginDBTest(String userName, String password) {
+		System.out.println(userName);
 		loginPOM.sendUserName(userName);
 		loginPOM.sendPassword(password);
 		loginPOM.clickLoginBtn();
